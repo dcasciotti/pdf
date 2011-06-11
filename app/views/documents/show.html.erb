@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Pdf:</b>
+  <%= @document.pdf %>
+</p>
+
+<p>
+  <b>Pdf file name:</b>
+  <%= @document.pdf_file_name %>
+</p>
+<%= image_tag  @document.pdf.url(:original) %>
+<p>
+  <b>Pdf content type:</b>
+  <%= @document.pdf_content_type %>
+</p>
+
+<p>
+  <b>Pdf file size:</b>
+  <%= @document.pdf_file_size %>
+</p>
+
+<p>
+  <b>Pdf updated at:</b>
+  <%= @document.pdf_updated_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_document_path(@document) %> |
+<%= link_to 'Back', documents_path %>

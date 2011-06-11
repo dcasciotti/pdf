@@ -1,0 +1,9 @@
+development:
+  bucket: "dac_test"
+  access_key_id:  "AKIAJ54C6IAUKO4RNJ7A"
+  secret_access_key: "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"
+  
+production:
+  bucket: "dac_test"
+  access_key_id:  "AKIAJ54C6IAUKO4RNJ7A"
+  secret_access_key: "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"
